@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Fira Sans';
-    src: url(/assets/font/Fira_Sans/FiraSans-Regular.ttf);
-    src: url(/assets/font/Fira_Sans/FiraSans-SemiBold.ttf)
+    src: url(../assets/font/Fira_Sans/FiraSans-Regular.ttf);
+    src: url(../assets/font/Fira_Sans/FiraSans-SemiBold.ttf)
 }
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
 
