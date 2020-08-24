@@ -10,6 +10,7 @@ nav {
     display: flex;
     height: 8vh;
     align-items: baseline;
+    margin-bottom: 20px;
 }
 
 a {
