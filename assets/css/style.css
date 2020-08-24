@@ -94,6 +94,7 @@ mask-size: auto
 
   .quote p {
       text-align: center;
+      font-family: 'Fira Sans', sans-serif ;
   }
 
   .quote img {
