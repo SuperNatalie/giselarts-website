@@ -144,7 +144,7 @@ mask-size: auto
 
   #pic-lauefer {
       grid-row: 3/7;
-      grid-column: 1/7;
+      grid-column: 2/7;
       background-image: url(../img/pic_laeufer.JPG);
       background-position: bottom;
       background-size: cover;
@@ -191,7 +191,7 @@ mask-size: auto
 
   #pic-taenzerin {
     grid-row: 3/11;
-    grid-column: 1/6;
+    grid-column: 2/6;
     background-image: url(../img/pic_taenzerin.JPG);
     background-position: top;
     background-size: cover;
@@ -226,6 +226,7 @@ mask-size: auto
   grid-column: 4/9;
   grid-row: 1/2;
   z-index: -1; 
+  background-size: cover;
 }
 
 .pinkdiv3 {
