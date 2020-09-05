@@ -270,7 +270,7 @@ footer :nth-child(2) {
 
 @media screen and (max-width: 660px) {
 nav h3, nav h2 {
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 nav h2 {
@@ -280,6 +280,7 @@ nav h2 {
 
 .slides {
   height: 30vh;   
+  margin-top: 10px;
 }
 
 p {
@@ -287,10 +288,10 @@ p {
 }
 .container-meineKunst, .container-aktuelles, .about-me {
   width: 90%;
-  height: 60vh;
+  height: 50vh;
 }
 h3 {
-  font-size: 0.8em;
+  font-size: 0.6em;
   margin-bottom: 0;
 
 }
