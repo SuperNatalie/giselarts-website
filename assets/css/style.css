@@ -243,6 +243,11 @@ mask-size: auto
   background-position: center;
   background-size: cover;
 }
+* .slideanim:hover  {
+  transform:scale(1.05);
+  transition: 0.4s;
+  opacity: 0.8;
+}
 
 #pic-gisela-streich {
   grid-row: 3/10;
