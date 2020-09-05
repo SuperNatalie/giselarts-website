@@ -144,7 +144,7 @@ mask-size: auto
 
   #pic-lauefer {
       grid-row: 3/7;
-      grid-column: 2/7;
+      grid-column: 3/7;
       background-image: url(../img/pic_laeufer.JPG);
       background-position: bottom;
       background-size: cover;
@@ -152,7 +152,7 @@ mask-size: auto
 
   #pic-boy-sad {
       grid-row: 3/11;
-      grid-column: 8/12;
+      grid-column: 8/11;
       padding-left: 30px;
       background-image: url(../img/pic_boy-sad.jpg);
       background-position: top;
@@ -191,7 +191,7 @@ mask-size: auto
 
   #pic-taenzerin {
     grid-row: 3/11;
-    grid-column: 2/6;
+    grid-column: 2/5;
     background-image: url(../img/pic_taenzerin.JPG);
     background-position: top;
     background-size: cover;
@@ -199,7 +199,7 @@ mask-size: auto
 
 #pic-screenshot {
     grid-row: 3/8;
-    grid-column: 7/12;
+    grid-column: 6/11;
     padding-left: 30px;
     background-image: url(../img/screenshot_website.png);
     background-position: top;
@@ -238,7 +238,7 @@ mask-size: auto
 
 #pic-brushes {
   grid-row: 3/9;
-  grid-column: 1/6;
+  grid-column: 2/6;
   background-image: url(../img/brushes.jpg);
   background-position: center;
   background-size: cover;
