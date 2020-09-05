@@ -75,7 +75,7 @@ mask-size: auto
     display:none;
     object-fit: cover;
     width: 90vw;
-    height: 50vh;   
+    height: 60vh;   
   }
   
   .animate-top {
@@ -139,7 +139,7 @@ mask-size: auto
 
   #h3_meineKunst {
       grid-row: 1/2;
-      grid-column: 7/9;   
+      grid-column: 7/11;   
   }
 
   #pic-lauefer {
@@ -252,10 +252,45 @@ mask-size: auto
   background-size: cover;
 }
 
+
+footer {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer :nth-child(1) {
   text-align: right;
 }
 
 footer :nth-child(2) {
   text-align: center;
+}
+
+
+@media screen and (max-width: 660px) {
+nav h3, nav h2 {
+    font-size: 0.6em;
+}
+
+nav h2 {
+    font-size: 0.9em;
+    width: 12em;
+}
+
+.slides {
+  height: 30vh;   
+}
+
+p {
+  font-size: 0.7em;
+}
+.container-meineKunst, .container-aktuelles, .about-me {
+  width: 90%;
+  height: 60vh;
+}
+h3 {
+  font-size: 0.8em;
+  margin-bottom: 0;
+
+}
 }
