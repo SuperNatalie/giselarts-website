@@ -33,7 +33,10 @@ var simpleSlides = function (options) {
   }
   
   var opts = {
-    speed: 8000,
+    speed: 80000,
     animate: "animate-top"
   }
   simpleSlides(opts);
+
+  // speed verändert intervallzeit
+
