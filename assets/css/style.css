@@ -14,7 +14,6 @@ nav {
     display: flex;
     height: 8vh;
     align-items: baseline;
-   
     width: 90vw;
     justify-content: space-between;
     margin-left: auto;
@@ -76,7 +75,7 @@ mask-size: auto
     display:none;
     object-fit: cover;
     width: 90vw;
-    height: 60vh;   
+    height: 50vh;   
   }
   
   .animate-top {
@@ -113,7 +112,7 @@ mask-size: auto
 
   /* Grid für Article meine Kunst, Startseite */
 
-  .container-meineKunst {
+  .container-meineKunst, .container-aktuelles, .about-me {
       width: 90%;
       height: 90vh;
       margin-left: 5%;
@@ -121,25 +120,22 @@ mask-size: auto
       display: grid;
       grid-template-rows: repeat(13, 1fr);
       grid-template-columns: repeat(11, 1fr);
-      margin-bottom: 200px;
-      border: 1px solid black;
+      margin-bottom: 100px;
   }
 
-  .pinkdiv {
+  .pinkdiv1 {
       background-color: #FAE3E3;
       grid-column: 2/10;
       grid-row: 1/14;
       z-index: -1;
   }
 
-  .colorbar {
-    background-color: red;
+  .colorbar1 {
+    background-image: url(../img/colorbar1.png);
     grid-column: 1/6;
     grid-row: 1/2;
     z-index: -1; 
   }
-
- 
 
   #h3_meineKunst {
       grid-row: 1/2;
@@ -148,18 +144,18 @@ mask-size: auto
 
   #pic-lauefer {
       grid-row: 3/7;
-      grid-column: 2/7;
+      grid-column: 1/7;
       background-image: url(../img/pic_laeufer.JPG);
-      background-position: center;
+      background-position: bottom;
       background-size: cover;
   }
 
   #pic-boy-sad {
-      grid-row: 3/9;
+      grid-row: 3/10;
       grid-column: 8/12;
       padding-left: 30px;
       background-image: url(../img/pic_boy-sad.jpg);
-      background-position: center;
+      background-position: top;
       background-size: cover;
      
   }
@@ -171,3 +167,95 @@ mask-size: auto
     background-position: center;
     background-size: cover;
   }
+
+
+  /* Article Aktuelles */
+
+  #h3_aktuelles {
+    grid-row: 1/2;
+    grid-column: 5/7;   
+}
+  .colorbar2 {
+    background-image: url(../img/colorbar2.png);
+    grid-column: 7/14;
+    grid-row: 1/2;
+    z-index: -1; 
+  }
+
+  .pinkdiv2 {
+    background-color: #FAE3E3;
+    grid-column: 4/10;
+    grid-row: 1/14;
+    z-index: -1;
+  }
+
+  #pic-taenzerin {
+    grid-row: 3/11;
+    grid-column: 1/6;
+    background-image: url(../img/pic_taenzerin.JPG);
+    background-position: top;
+    background-size: cover;
+}
+
+#pic-screenshot {
+    grid-row: 3/8;
+    grid-column: 7/12;
+    padding-left: 30px;
+    background-image: url(../img/screenshot_website.png);
+    background-position: top;
+    background-size: cover;
+   
+}
+
+#pic-austellung {
+  grid-row: 10/14;
+  grid-column: 7/12;
+  background-image: url(../img/austellung_montagsmalerinnen_02-2020.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Article Über mich */
+
+#h3_about-me {
+  grid-row: 1/2;
+  grid-column: 2/4;   
+}
+.colorbar3 {
+  background-image: url(../img/colorbar3.png);
+  grid-column: 4/9;
+  grid-row: 1/2;
+  z-index: -1; 
+}
+
+.pinkdiv3 {
+  background-color: #FAE3E3;
+  grid-column: 1/14;
+  grid-row: 1/11;
+  z-index: -1;
+}
+
+#pic-brushes {
+  grid-row: 3/9;
+  grid-column: 1/6;
+  background-image: url(../img/brushes.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#pic-gisela-streich {
+  grid-row: 3/10;
+  grid-column: 8/12;
+  padding-left: 30px;
+  background-image: url(../img/gisela-streich.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+footer :nth-child(1) {
+  text-align: right;
+}
+
+footer :nth-child(2) {
+  text-align: center;
+}
