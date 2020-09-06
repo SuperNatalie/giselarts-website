@@ -67,15 +67,21 @@ mask-size: auto
 
 .simpleSlides {
     width:90vw;
+    height: 60vh; 
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .slides {
     display:none;
     object-fit: cover;
     width: 90vw;
-    height: 60vh;   
+    height: 60vh;  
+    margin-left: auto;
+    margin-right: auto; 
+    
   }
   
   .animate-top {
@@ -112,7 +118,7 @@ mask-size: auto
 
   /* Grid für Article meine Kunst, Startseite */
 
-  .container-meineKunst, .container-aktuelles, .about-me {
+  .container-meineKunst, .container-aktuelles, .about-me, .meine-kunst2 {
       width: 90%;
       height: 90vh;
       margin-left: 5%;
@@ -122,6 +128,9 @@ mask-size: auto
       grid-template-columns: repeat(11, 1fr);
       margin-bottom: 100px;
   }
+
+ 
+
 
   .pinkdiv1 {
       background-color: #FAE3E3;
@@ -328,4 +337,32 @@ h3 {
       opacity: 1;
       transform: translateY(0);
   } 
+}
+
+
+/* Meine Kunst Unterseite */
+
+.container-meineKunst2 {
+  width: 90%;
+    height: 10vh;
+    margin-left: 10%;
+    margin-right: auto;
+    
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    z-index: 2;
+}
+
+#h3_menschen {
+  grid-row: 1/2;
+  grid-column: 7/11;   
+}
+
+#pic-weiblicher-akt {
+  grid-row: 1/9;
+  grid-column: 2/6;
+  background-image: url(../img/weiblicher-akt.JPG);
+  background-position: center;
+  background-size: cover;
 }
