@@ -43,7 +43,7 @@ header {
     justify-content: center;
 }
 
-section{
+section {
     display: flex;
     background-color: #fae3e3;
     position: sticky;
@@ -138,3 +138,34 @@ mask-size: auto;
       -webkit-mask-position: -50%;
     }
   }
+
+@media (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    header {
+        height: 70vw;
+    }
+    section {
+        display: block;
+        position: static;
+    }
+
+    section div {
+        width: 100%
+    }
+
+    section div.text {
+        padding: 30px;
+    }
+    section div.full-image {
+        height: 100vw;
+      
+    }
+    nav {
+        display: none;
+    }
+} 
