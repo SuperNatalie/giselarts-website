@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap");
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+* {
+    font-family: fira sans;
+}
+nav {
+    display: flex;
+    height: 8vh;
+    align-items: baseline;
+    width: 90vw;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+h1 {
+    font-family: Photograph Signature;
+    font-size: 12vw;
+    color: white;
+}
+
+header {
+    background-image: url(/assets/img/meeresstille.jpg);
+    height: 70vh;
+    margin-top: -8vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    background-color: #fae3e3;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+footer {
+    display: flex;
+    position: sticky;
+    top:0;
+   align-items: stretch;
+   width: 100%;
+   height: 50px;
+}
+
+section div {
+    width: 50%;
+}
+
+section div.text {
+    box-sizing: border-box;
+    padding: 60px;
+} 
+
+section div.full-image {
+    height: 100vh;
+    background-image: url(/assets/img/brushes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section div.image-2 {
+    background-image: url(/assets/img/weiblicher-akt.JPG);
+}
+
+section div.image-3 {
+    background-image: url(/assets/img/pic_laeufer.JPG);
+}
+
+section div.image-4 {
+    background-image: url(/assets/img/pic_boy-sad.jpg);
+}
+
+section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.bounce-arrow {
+        position: relative;
+        left:38%;
+    margin-top: 200px;
+        height:70px;
+        width:70px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -webkit-animation:bounce 1s infinite;
+        z-index: 999;
+        font-size: 50px;
+        background-color: #5dd39e;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    @-webkit-keyframes bounce {
+        0%       { bottom:25px; }
+        25%, 75% { bottom:35px; }
+        50%      { bottom:40px; }
+        100%     { bottom:20px; }
+    }
+
+
+
+
+/* effect-shine */
+
+a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.5) 30%, #000 50%, rgba(0,0,0,.5) 70% );
+    -webkit-mask-size: 200%;
+    animation: shine 1.5s ;
+    mask-image: inherit;
+mask-image: initial;
+mask-image: unset;
+mask-size: auto;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
