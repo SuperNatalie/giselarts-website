@@ -70,7 +70,7 @@ section div.text {
 
 section div.full-image {
     height: 100vh;
-    background-image: url(../img/brushes.jpg);
+    background-image: url(/assets/img/brushes.jpg);
     background-size: cover;
     background-position: center;
 }
