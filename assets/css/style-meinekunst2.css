@@ -70,7 +70,7 @@ section div.text {
 
 section div.full-image {
     height: 100vh;
-    background-image: url(/assets/img/brushes.jpg);
+    background-image: url(../img/brushes.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -79,7 +79,7 @@ section div.image-2 {
 }
 
 section div.image-3 {
-    background-image: url(/assets/img/pic_laeufer.JPG);
+    background-image: url(../img/pic_eisberg.jpg);
 }
 
 section div.image-4 {
