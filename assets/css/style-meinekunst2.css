@@ -32,7 +32,7 @@ h1 {
 }
 
 header {
-    background-image: url(/assets/img/meeresstille.jpg);
+    background-image: url(../img/meeresstille.jpg);
     height: 70vh;
     margin-top: -8vh;
     background-size: cover;
@@ -70,12 +70,12 @@ section div.text {
 
 section div.full-image {
     height: 100vh;
-    background-image: url(/assets/img/brushes.jpg);
+    background-image: url(../img/brushes.jpg);
     background-size: cover;
     background-position: center;
 }
 section div.image-2 {
-    background-image: url(/assets/img/weiblicher-akt.JPG);
+    background-image: url(../img/weiblicher-akt.JPG);
 }
 
 section div.image-3 {
@@ -83,7 +83,7 @@ section div.image-3 {
 }
 
 section div.image-4 {
-    background-image: url(/assets/img/pic_boy-sad.jpg);
+    background-image: url(../img/pic_boy-sad.jpg);
 }
 
 section:nth-child(odd) {
