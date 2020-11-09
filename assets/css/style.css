@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap");
 
-
 html, body {
   margin: 0;
   padding: 0;
@@ -348,7 +347,7 @@ header {
 
 
 /* Meine Kunst Unterseite */
-/* 
+
 .container-meineKunst2 {
   width: 90%;
     height: 10vh;
@@ -372,96 +371,13 @@ header {
   background-image: url(../img/weiblicher-akt.JPG);
   background-position: center;
   background-size: cover;
-} */
+}
 
 /* Meine Kust Vers.2 */
 
-
-/* h1 {
-  font-family: Photograph Signature;
-  font-size: 12vw;
-  color: white;
-}
-
 header {
-  background-image: url(./assets/img/meeresstille.jpg);
-  height: 70vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */ */
-
-section.test {
-  display: flex;
-  background-color: #fae3e3;
-  position: sticky;
-  top: 0;
-  scroll-behavior: smooth;
+  background-image: url(../img/meeresstille.jpg);
 }
-
-section.test div {
-  width: 50%;
-}
-
-section.text  {
-  width: 50px;
-  margin-left: 50px;
-}
-
-section div.text {
-  box-sizing: border-box;
-  padding: 60px;
-} 
-
-section div.full-image {
-  height: 100vh;
-  background-image: url(/assets/img/brushes.jpg);
-  background-size: cover;
-  background-position: center;
-}
-section div.image-2 {
-  background-image: url(/assets/img/weiblicher-akt.JPG);
-}
-
-section div.image-3 {
-  background-image: url(./assets/img/pic_laeufer.JPG);
-}
-
-section div.image-4 {
-  background-image: url(./assets/img/pic_boy-sad.jpg);
-}
-
-section:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
-.bounce-arrow {
-      position: relative;
-      left:38%;
-  margin-top: 200px;
-      height:70px;
-      width:70px;
-      border-radius: 50%;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -webkit-animation:bounce 1s infinite;
-      z-index: 999;
-      font-size: 50px;
-      background-color: #5dd39e;
-      text-align: center;
-      align-items: center;
-      vertical-align: middle;
-  }
-  @-webkit-keyframes bounce {
-      0%       { bottom:25px; }
-      25%, 75% { bottom:35px; }
-      50%      { bottom:40px; }
-      100%     { bottom:20px; }
-  }
-}
-
 
 /* Menschen von Meine Kunst Unterseite */
 
